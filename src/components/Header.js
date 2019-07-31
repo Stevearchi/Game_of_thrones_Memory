@@ -3,7 +3,8 @@ import React from 'react';
 const styles = {
     header: {
         backgroundColor: "#e9ecef",
-        color: "#373737"
+        color: "#373737",
+        justifyContent: "center"
     },
     a: {
         textDecoration: "none",
@@ -11,12 +12,13 @@ const styles = {
  
     },
     ul: {
-        listStyle: "none"
+        listStyle: "none",
+        textAlign: "center"
     },
     li: {
         display: "inline-block",
         textAlign: "center",
-        width: "33.3%"
+        marginRight: 160
     },
     h1: {
         fontSize: "2.4em"
@@ -25,11 +27,11 @@ const styles = {
 
 const Header = (props) => {
     return (
-        <nav style={styles.header} className="navbar">
-            <ul style={styles.ul} className="row mx-auto">
-                <li className="col-md-5" style={styles.li}><h1 style={styles.h1}><a style={styles.a} href="/">Game of Thrones</a></h1></li>
-                <li className="col-md-4" style={styles.li}>{props.topMessage}</li>
-                <li className="col-md-3" style={styles.li}>Score: {props.score} | Top Score: {props.topScore}</li>
+        <nav style={styles.header} className="navbar mb-5">
+            <ul style={styles.ul} className="ml-0">
+                <li key="1" className="" style={styles.li}><h1 style={styles.h1}><a style={styles.a} href="/">Game of Thrones</a></h1></li>
+                <li key="1" className="" style={styles.li}>{props.topMessage}</li>
+                <li key="1" className="" style={styles.li}>Score: {props.score} | Top Score: {props.topScore}</li>
             </ul>
 
         </nav>

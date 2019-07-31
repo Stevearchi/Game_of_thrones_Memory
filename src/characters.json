@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic1.jpg",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic2.jpg",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic3.jpg",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic4.jpg",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic5.jpg",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic6.jpg",
         "clicked": false
     },
     {
         "id": 7,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic7.jpg",
         "clicked": false
     },
     {
         "id": 8,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic8.jpg",
         "clicked": false
     },
     {
         "id": 9,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic9.jpg",
         "clicked": false
     },
     {
         "id": 10,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic10.jpg",
         "clicked": false
     },
     {
         "id": 11,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic11.jpg",
         "clicked": false
     },
     {
         "id": 12,
-        "image": "/images/eddard_on_throne.jpeg",
+        "image": "/images/pic12.jpg",
         "clicked": false
     }
 ]
