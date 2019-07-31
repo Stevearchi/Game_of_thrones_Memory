@@ -12,14 +12,19 @@ class App extends Component {
     score: 0,
     topScore: 0,
     topMessage: "Click an image to begin!", // This can be three different messages
-    characters
+    characters,
+    charsClicked: characters
   };
+
+  changeState = (newState) => {
+    this.setState(newState)
+  }
 
   render() {
     return (
       <>
         <Header topMessage={this.state.topMessage} score={this.state.score} topScore={this.state.topScore} />
-        <Game characters={this.state.characters}/>
+        <Game state={this.state} changeState={this.changeState} />
       </>
     );
   };
